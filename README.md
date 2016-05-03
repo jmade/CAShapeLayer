@@ -6,7 +6,7 @@ CAShapeLayer Animations
 
 This application is demo of `CAShapeLayer` and some animations that can be done with it.
 
-![Alt Text](https://github.com/jmade/jmade.github.io/blob/master/shapelayer.gif?raw=true)
+![Alt Text](https://github.com/jmade/jmade.github.io/blob/master/shapelayer2.gif?raw=true)
 
 - The path of a gear is filled in.
 - A shape grows from a small circle in the middle, into one larger than the screen
