@@ -7,9 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		49307BD71B6FF63C00018EC7 /* BaseGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 49307BCD1B6FF63B00018EC7 /* BaseGeometry.m */; };
-		49307BD81B6FF63C00018EC7 /* BezierUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 49307BCF1B6FF63B00018EC7 /* BezierUtilities.m */; };
-		49307BDB1B6FF63C00018EC7 /* SceneKit Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 49307BD61B6FF63C00018EC7 /* SceneKit Additions.m */; };
+		4935387F1CD85AB40071E524 /* BaseGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 493538221CD85AB40071E524 /* BaseGeometry.m */; };
+		493538801CD85AB40071E524 /* BezierUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 493538241CD85AB40071E524 /* BezierUtilities.m */; };
+		493538841CD85AB40071E524 /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 4935382D1CD85AB40071E524 /* Colours.m */; };
+		493538851CD85AB40071E524 /* _FBColorComponentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 493538301CD85AB40071E524 /* _FBColorComponentCell.m */; };
+		493538861CD85AB40071E524 /* _FBColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 493538321CD85AB40071E524 /* _FBColorUtils.m */; };
+		493538871CD85AB40071E524 /* _FBColorWheelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 493538341CD85AB40071E524 /* _FBColorWheelCell.m */; };
+		493538881CD85AB40071E524 /* _FBKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 493538361CD85AB40071E524 /* _FBKeyboardManager.m */; };
+		493538891CD85AB40071E524 /* _FBSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 493538381CD85AB40071E524 /* _FBSliderView.m */; };
+		4935388A1CD85AB40071E524 /* _FBTweakArrayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4935383A1CD85AB40071E524 /* _FBTweakArrayViewController.m */; };
+		4935388B1CD85AB40071E524 /* _FBTweakBindObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4935383C1CD85AB40071E524 /* _FBTweakBindObserver.m */; };
+		4935388C1CD85AB40071E524 /* _FBTweakCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4935383E1CD85AB40071E524 /* _FBTweakCategoryViewController.m */; };
+		4935388D1CD85AB40071E524 /* _FBTweakCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493538401CD85AB40071E524 /* _FBTweakCollectionViewController.m */; };
+		4935388E1CD85AB40071E524 /* _FBTweakColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493538421CD85AB40071E524 /* _FBTweakColorViewController.m */; };
+		4935388F1CD85AB40071E524 /* _FBTweakColorViewControllerHSBDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 493538451CD85AB40071E524 /* _FBTweakColorViewControllerHSBDataSource.m */; };
+		493538901CD85AB40071E524 /* _FBTweakColorViewControllerRGBDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 493538471CD85AB40071E524 /* _FBTweakColorViewControllerRGBDataSource.m */; };
+		493538911CD85AB40071E524 /* _FBTweakDictionaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493538491CD85AB40071E524 /* _FBTweakDictionaryViewController.m */; };
+		493538921CD85AB40071E524 /* _FBTweakTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4935384B1CD85AB40071E524 /* _FBTweakTableViewCell.m */; };
+		493538931CD85AB40071E524 /* FBTweak.m in Sources */ = {isa = PBXBuildFile; fileRef = 4935384E1CD85AB40071E524 /* FBTweak.m */; };
+		493538941CD85AB40071E524 /* FBTweakCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 493538501CD85AB40071E524 /* FBTweakCategory.m */; };
+		493538951CD85AB40071E524 /* FBTweakCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 493538521CD85AB40071E524 /* FBTweakCollection.m */; };
+		493538961CD85AB40071E524 /* FBTweakInline.m in Sources */ = {isa = PBXBuildFile; fileRef = 493538551CD85AB40071E524 /* FBTweakInline.m */; };
+		493538971CD85AB40071E524 /* FBTweakShakeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 493538581CD85AB40071E524 /* FBTweakShakeWindow.m */; };
+		493538981CD85AB40071E524 /* FBTweakStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4935385A1CD85AB40071E524 /* FBTweakStore.m */; };
+		493538991CD85AB40071E524 /* FBTweakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4935385C1CD85AB40071E524 /* FBTweakViewController.m */; };
+		4935389A1CD85AB40071E524 /* JDMGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4935385E1CD85AB40071E524 /* JDMGradientLayer.m */; };
+		493538A21CD85AB40071E524 /* SceneKit Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 493538771CD85AB40071E524 /* SceneKit Additions.m */; };
+		493538A51CD85AB40071E524 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4935387E1CD85AB40071E524 /* XMLDictionary.m */; };
 		49FDF42E1B61897A006C56D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FDF42D1B61897A006C56D3 /* main.m */; };
 		49FDF4311B61897A006C56D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FDF4301B61897A006C56D3 /* AppDelegate.m */; };
 		49FDF4341B61897A006C56D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FDF4331B61897A006C56D3 /* ViewController.m */; };
@@ -38,13 +62,65 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		49307BCC1B6FF63B00018EC7 /* BaseGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseGeometry.h; sourceTree = "<group>"; };
-		49307BCD1B6FF63B00018EC7 /* BaseGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseGeometry.m; sourceTree = "<group>"; };
-		49307BCE1B6FF63B00018EC7 /* BezierUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierUtilities.h; sourceTree = "<group>"; };
-		49307BCF1B6FF63B00018EC7 /* BezierUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierUtilities.m; sourceTree = "<group>"; };
-		49307BD41B6FF63C00018EC7 /* JDMUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDMUtility.h; sourceTree = "<group>"; };
-		49307BD51B6FF63C00018EC7 /* SceneKit Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SceneKit Additions.h"; sourceTree = "<group>"; };
-		49307BD61B6FF63C00018EC7 /* SceneKit Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SceneKit Additions.m"; sourceTree = "<group>"; };
+		493538211CD85AB40071E524 /* BaseGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseGeometry.h; sourceTree = "<group>"; };
+		493538221CD85AB40071E524 /* BaseGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseGeometry.m; sourceTree = "<group>"; };
+		493538231CD85AB40071E524 /* BezierUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierUtilities.h; sourceTree = "<group>"; };
+		493538241CD85AB40071E524 /* BezierUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierUtilities.m; sourceTree = "<group>"; };
+		4935382C1CD85AB40071E524 /* Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = "<group>"; };
+		4935382D1CD85AB40071E524 /* Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
+		4935382F1CD85AB40071E524 /* _FBColorComponentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBColorComponentCell.h; sourceTree = "<group>"; };
+		493538301CD85AB40071E524 /* _FBColorComponentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBColorComponentCell.m; sourceTree = "<group>"; };
+		493538311CD85AB40071E524 /* _FBColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBColorUtils.h; sourceTree = "<group>"; };
+		493538321CD85AB40071E524 /* _FBColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBColorUtils.m; sourceTree = "<group>"; };
+		493538331CD85AB40071E524 /* _FBColorWheelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBColorWheelCell.h; sourceTree = "<group>"; };
+		493538341CD85AB40071E524 /* _FBColorWheelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBColorWheelCell.m; sourceTree = "<group>"; };
+		493538351CD85AB40071E524 /* _FBKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBKeyboardManager.h; sourceTree = "<group>"; };
+		493538361CD85AB40071E524 /* _FBKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBKeyboardManager.m; sourceTree = "<group>"; };
+		493538371CD85AB40071E524 /* _FBSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBSliderView.h; sourceTree = "<group>"; };
+		493538381CD85AB40071E524 /* _FBSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBSliderView.m; sourceTree = "<group>"; };
+		493538391CD85AB40071E524 /* _FBTweakArrayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakArrayViewController.h; sourceTree = "<group>"; };
+		4935383A1CD85AB40071E524 /* _FBTweakArrayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakArrayViewController.m; sourceTree = "<group>"; };
+		4935383B1CD85AB40071E524 /* _FBTweakBindObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakBindObserver.h; sourceTree = "<group>"; };
+		4935383C1CD85AB40071E524 /* _FBTweakBindObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakBindObserver.m; sourceTree = "<group>"; };
+		4935383D1CD85AB40071E524 /* _FBTweakCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakCategoryViewController.h; sourceTree = "<group>"; };
+		4935383E1CD85AB40071E524 /* _FBTweakCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakCategoryViewController.m; sourceTree = "<group>"; };
+		4935383F1CD85AB40071E524 /* _FBTweakCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakCollectionViewController.h; sourceTree = "<group>"; };
+		493538401CD85AB40071E524 /* _FBTweakCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakCollectionViewController.m; sourceTree = "<group>"; };
+		493538411CD85AB40071E524 /* _FBTweakColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakColorViewController.h; sourceTree = "<group>"; };
+		493538421CD85AB40071E524 /* _FBTweakColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakColorViewController.m; sourceTree = "<group>"; };
+		493538431CD85AB40071E524 /* _FBTweakColorViewControllerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakColorViewControllerDataSource.h; sourceTree = "<group>"; };
+		493538441CD85AB40071E524 /* _FBTweakColorViewControllerHSBDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakColorViewControllerHSBDataSource.h; sourceTree = "<group>"; };
+		493538451CD85AB40071E524 /* _FBTweakColorViewControllerHSBDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakColorViewControllerHSBDataSource.m; sourceTree = "<group>"; };
+		493538461CD85AB40071E524 /* _FBTweakColorViewControllerRGBDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakColorViewControllerRGBDataSource.h; sourceTree = "<group>"; };
+		493538471CD85AB40071E524 /* _FBTweakColorViewControllerRGBDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakColorViewControllerRGBDataSource.m; sourceTree = "<group>"; };
+		493538481CD85AB40071E524 /* _FBTweakDictionaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakDictionaryViewController.h; sourceTree = "<group>"; };
+		493538491CD85AB40071E524 /* _FBTweakDictionaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakDictionaryViewController.m; sourceTree = "<group>"; };
+		4935384A1CD85AB40071E524 /* _FBTweakTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakTableViewCell.h; sourceTree = "<group>"; };
+		4935384B1CD85AB40071E524 /* _FBTweakTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakTableViewCell.m; sourceTree = "<group>"; };
+		4935384C1CD85AB40071E524 /* FBTweak-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBTweak-Prefix.pch"; sourceTree = "<group>"; };
+		4935384D1CD85AB40071E524 /* FBTweak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweak.h; sourceTree = "<group>"; };
+		4935384E1CD85AB40071E524 /* FBTweak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweak.m; sourceTree = "<group>"; };
+		4935384F1CD85AB40071E524 /* FBTweakCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakCategory.h; sourceTree = "<group>"; };
+		493538501CD85AB40071E524 /* FBTweakCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakCategory.m; sourceTree = "<group>"; };
+		493538511CD85AB40071E524 /* FBTweakCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakCollection.h; sourceTree = "<group>"; };
+		493538521CD85AB40071E524 /* FBTweakCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakCollection.m; sourceTree = "<group>"; };
+		493538531CD85AB40071E524 /* FBTweakEnabled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakEnabled.h; sourceTree = "<group>"; };
+		493538541CD85AB40071E524 /* FBTweakInline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakInline.h; sourceTree = "<group>"; };
+		493538551CD85AB40071E524 /* FBTweakInline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakInline.m; sourceTree = "<group>"; };
+		493538561CD85AB40071E524 /* FBTweakInlineInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakInlineInternal.h; sourceTree = "<group>"; };
+		493538571CD85AB40071E524 /* FBTweakShakeWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakShakeWindow.h; sourceTree = "<group>"; };
+		493538581CD85AB40071E524 /* FBTweakShakeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakShakeWindow.m; sourceTree = "<group>"; };
+		493538591CD85AB40071E524 /* FBTweakStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakStore.h; sourceTree = "<group>"; };
+		4935385A1CD85AB40071E524 /* FBTweakStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakStore.m; sourceTree = "<group>"; };
+		4935385B1CD85AB40071E524 /* FBTweakViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTweakViewController.h; sourceTree = "<group>"; };
+		4935385C1CD85AB40071E524 /* FBTweakViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTweakViewController.m; sourceTree = "<group>"; };
+		4935385D1CD85AB40071E524 /* JDMGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDMGradientLayer.h; sourceTree = "<group>"; };
+		4935385E1CD85AB40071E524 /* JDMGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDMGradientLayer.m; sourceTree = "<group>"; };
+		4935385F1CD85AB40071E524 /* JDMUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDMUtility.h; sourceTree = "<group>"; };
+		493538761CD85AB40071E524 /* SceneKit Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SceneKit Additions.h"; sourceTree = "<group>"; };
+		493538771CD85AB40071E524 /* SceneKit Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SceneKit Additions.m"; sourceTree = "<group>"; };
+		4935387D1CD85AB40071E524 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		4935387E1CD85AB40071E524 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
 		49FDF4291B61897A006C56D3 /* CAShapeLayerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAShapeLayerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FDF42D1B61897A006C56D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		49FDF42F1B61897A006C56D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,25 +164,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		49307BCB1B6FF63B00018EC7 /* JDMUtility */ = {
+		493538201CD85AB40071E524 /* JDMUtility */ = {
 			isa = PBXGroup;
 			children = (
-				49307BCC1B6FF63B00018EC7 /* BaseGeometry.h */,
-				49307BCD1B6FF63B00018EC7 /* BaseGeometry.m */,
-				49307BCE1B6FF63B00018EC7 /* BezierUtilities.h */,
-				49307BCF1B6FF63B00018EC7 /* BezierUtilities.m */,
-				49307BD41B6FF63C00018EC7 /* JDMUtility.h */,
-				49307BD51B6FF63C00018EC7 /* SceneKit Additions.h */,
-				49307BD61B6FF63C00018EC7 /* SceneKit Additions.m */,
+				493538211CD85AB40071E524 /* BaseGeometry.h */,
+				493538221CD85AB40071E524 /* BaseGeometry.m */,
+				493538231CD85AB40071E524 /* BezierUtilities.h */,
+				493538241CD85AB40071E524 /* BezierUtilities.m */,
+				4935382C1CD85AB40071E524 /* Colours.h */,
+				4935382D1CD85AB40071E524 /* Colours.m */,
+				4935382E1CD85AB40071E524 /* FBTweak */,
+				4935385D1CD85AB40071E524 /* JDMGradientLayer.h */,
+				4935385E1CD85AB40071E524 /* JDMGradientLayer.m */,
+				4935385F1CD85AB40071E524 /* JDMUtility.h */,
+				493538761CD85AB40071E524 /* SceneKit Additions.h */,
+				493538771CD85AB40071E524 /* SceneKit Additions.m */,
+				4935387C1CD85AB40071E524 /* XMLDictionary */,
 			);
-			name = JDMUtility;
-			path = ../../classes/Utility/JDMUtility;
+			path = JDMUtility;
+			sourceTree = "<group>";
+		};
+		4935382E1CD85AB40071E524 /* FBTweak */ = {
+			isa = PBXGroup;
+			children = (
+				4935382F1CD85AB40071E524 /* _FBColorComponentCell.h */,
+				493538301CD85AB40071E524 /* _FBColorComponentCell.m */,
+				493538311CD85AB40071E524 /* _FBColorUtils.h */,
+				493538321CD85AB40071E524 /* _FBColorUtils.m */,
+				493538331CD85AB40071E524 /* _FBColorWheelCell.h */,
+				493538341CD85AB40071E524 /* _FBColorWheelCell.m */,
+				493538351CD85AB40071E524 /* _FBKeyboardManager.h */,
+				493538361CD85AB40071E524 /* _FBKeyboardManager.m */,
+				493538371CD85AB40071E524 /* _FBSliderView.h */,
+				493538381CD85AB40071E524 /* _FBSliderView.m */,
+				493538391CD85AB40071E524 /* _FBTweakArrayViewController.h */,
+				4935383A1CD85AB40071E524 /* _FBTweakArrayViewController.m */,
+				4935383B1CD85AB40071E524 /* _FBTweakBindObserver.h */,
+				4935383C1CD85AB40071E524 /* _FBTweakBindObserver.m */,
+				4935383D1CD85AB40071E524 /* _FBTweakCategoryViewController.h */,
+				4935383E1CD85AB40071E524 /* _FBTweakCategoryViewController.m */,
+				4935383F1CD85AB40071E524 /* _FBTweakCollectionViewController.h */,
+				493538401CD85AB40071E524 /* _FBTweakCollectionViewController.m */,
+				493538411CD85AB40071E524 /* _FBTweakColorViewController.h */,
+				493538421CD85AB40071E524 /* _FBTweakColorViewController.m */,
+				493538431CD85AB40071E524 /* _FBTweakColorViewControllerDataSource.h */,
+				493538441CD85AB40071E524 /* _FBTweakColorViewControllerHSBDataSource.h */,
+				493538451CD85AB40071E524 /* _FBTweakColorViewControllerHSBDataSource.m */,
+				493538461CD85AB40071E524 /* _FBTweakColorViewControllerRGBDataSource.h */,
+				493538471CD85AB40071E524 /* _FBTweakColorViewControllerRGBDataSource.m */,
+				493538481CD85AB40071E524 /* _FBTweakDictionaryViewController.h */,
+				493538491CD85AB40071E524 /* _FBTweakDictionaryViewController.m */,
+				4935384A1CD85AB40071E524 /* _FBTweakTableViewCell.h */,
+				4935384B1CD85AB40071E524 /* _FBTweakTableViewCell.m */,
+				4935384C1CD85AB40071E524 /* FBTweak-Prefix.pch */,
+				4935384D1CD85AB40071E524 /* FBTweak.h */,
+				4935384E1CD85AB40071E524 /* FBTweak.m */,
+				4935384F1CD85AB40071E524 /* FBTweakCategory.h */,
+				493538501CD85AB40071E524 /* FBTweakCategory.m */,
+				493538511CD85AB40071E524 /* FBTweakCollection.h */,
+				493538521CD85AB40071E524 /* FBTweakCollection.m */,
+				493538531CD85AB40071E524 /* FBTweakEnabled.h */,
+				493538541CD85AB40071E524 /* FBTweakInline.h */,
+				493538551CD85AB40071E524 /* FBTweakInline.m */,
+				493538561CD85AB40071E524 /* FBTweakInlineInternal.h */,
+				493538571CD85AB40071E524 /* FBTweakShakeWindow.h */,
+				493538581CD85AB40071E524 /* FBTweakShakeWindow.m */,
+				493538591CD85AB40071E524 /* FBTweakStore.h */,
+				4935385A1CD85AB40071E524 /* FBTweakStore.m */,
+				4935385B1CD85AB40071E524 /* FBTweakViewController.h */,
+				4935385C1CD85AB40071E524 /* FBTweakViewController.m */,
+			);
+			path = FBTweak;
+			sourceTree = "<group>";
+		};
+		4935387C1CD85AB40071E524 /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				4935387D1CD85AB40071E524 /* XMLDictionary.h */,
+				4935387E1CD85AB40071E524 /* XMLDictionary.m */,
+			);
+			path = XMLDictionary;
 			sourceTree = "<group>";
 		};
 		49FDF4201B61897A006C56D3 = {
 			isa = PBXGroup;
 			children = (
-				49307BCB1B6FF63B00018EC7 /* JDMUtility */,
+				493538201CD85AB40071E524 /* JDMUtility */,
 				49FDF42B1B61897A006C56D3 /* CAShapeLayerTest */,
 				49FDF4451B61897A006C56D3 /* CAShapeLayerTestTests */,
 				49FDF4501B61897A006C56D3 /* CAShapeLayerTestUITests */,
@@ -296,12 +439,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49307BD71B6FF63C00018EC7 /* BaseGeometry.m in Sources */,
+				493538A21CD85AB40071E524 /* SceneKit Additions.m in Sources */,
+				4935388D1CD85AB40071E524 /* _FBTweakCollectionViewController.m in Sources */,
+				493538901CD85AB40071E524 /* _FBTweakColorViewControllerRGBDataSource.m in Sources */,
+				4935388F1CD85AB40071E524 /* _FBTweakColorViewControllerHSBDataSource.m in Sources */,
+				493538871CD85AB40071E524 /* _FBColorWheelCell.m in Sources */,
+				493538981CD85AB40071E524 /* FBTweakStore.m in Sources */,
+				4935387F1CD85AB40071E524 /* BaseGeometry.m in Sources */,
+				4935388C1CD85AB40071E524 /* _FBTweakCategoryViewController.m in Sources */,
+				493538891CD85AB40071E524 /* _FBSliderView.m in Sources */,
+				493538931CD85AB40071E524 /* FBTweak.m in Sources */,
+				4935388E1CD85AB40071E524 /* _FBTweakColorViewController.m in Sources */,
+				493538961CD85AB40071E524 /* FBTweakInline.m in Sources */,
 				49FDF4341B61897A006C56D3 /* ViewController.m in Sources */,
+				493538A51CD85AB40071E524 /* XMLDictionary.m in Sources */,
 				49FDF4311B61897A006C56D3 /* AppDelegate.m in Sources */,
-				49307BDB1B6FF63C00018EC7 /* SceneKit Additions.m in Sources */,
-				49307BD81B6FF63C00018EC7 /* BezierUtilities.m in Sources */,
+				493538801CD85AB40071E524 /* BezierUtilities.m in Sources */,
+				493538971CD85AB40071E524 /* FBTweakShakeWindow.m in Sources */,
+				4935388B1CD85AB40071E524 /* _FBTweakBindObserver.m in Sources */,
+				493538851CD85AB40071E524 /* _FBColorComponentCell.m in Sources */,
+				493538881CD85AB40071E524 /* _FBKeyboardManager.m in Sources */,
+				493538841CD85AB40071E524 /* Colours.m in Sources */,
+				4935388A1CD85AB40071E524 /* _FBTweakArrayViewController.m in Sources */,
+				4935389A1CD85AB40071E524 /* JDMGradientLayer.m in Sources */,
+				493538861CD85AB40071E524 /* _FBColorUtils.m in Sources */,
+				493538941CD85AB40071E524 /* FBTweakCategory.m in Sources */,
 				49FDF42E1B61897A006C56D3 /* main.m in Sources */,
+				493538921CD85AB40071E524 /* _FBTweakTableViewCell.m in Sources */,
+				493538951CD85AB40071E524 /* FBTweakCollection.m in Sources */,
+				493538911CD85AB40071E524 /* _FBTweakDictionaryViewController.m in Sources */,
+				493538991CD85AB40071E524 /* FBTweakViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
